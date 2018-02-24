@@ -6510,9 +6510,26 @@ label.panel-block {
   z-index: 1; }
 
 #home {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), center/cover url("../assets/background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), center/cover url("../assets/background.jpg");
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.5); }
   #home img.logo {
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.1));
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
     max-width: 100px; }
+
+#about {
+  background: whitesmoke;
+  padding: 5rem 1.5rem; }
+  #about .profile {
+    align-items: center;
+    display: flex;
+    justify-content: center; }
+    #about .profile img {
+      border-radius: 50%;
+      max-width: 250px;
+      width: 100%; }
+  #about h1 {
+    color: #b69f7a;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase; }
