@@ -11,6 +11,5 @@
         </div>
       </div>
     </footer>
-    <script type="text/javascript" src="lib/main.js"></script>
   </body>
 </html>

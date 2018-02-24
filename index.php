@@ -1,7 +1,9 @@
 <?php include 'header.php';?>
 
 <section id="home" class="hero is-fullheight is-dark">
-  <div class="hero-body">
+  <div class="parallax">
+  </div>
+  <div class="hero-body post-parallax">
     <div class="container">
       <div class="columns">
         <div class="column is-8-desktop is-offset-2-desktop has-text-centered">
@@ -10,7 +12,7 @@
             Hi, I'm Vikanda.
           </h1>
           <h2 class="subtitle is-4">
-            I'm a <strong>designer</strong> / <strong>developer</strong> who loves to create beautiful things.
+            I'm a <strong>designer</strong> / <strong>developer</strong> who loves creating beautiful things.
           </h2>
         </div>
       </div>
