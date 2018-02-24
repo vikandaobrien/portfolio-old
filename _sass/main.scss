@@ -17,6 +17,8 @@ $deviantart: #05cc47;
 $primary: $ravenbronze;
 $primary-invert: $white;
 $secondary: $ravenblue;
+$link: $primary;
+$navbar-height: 4.75rem;
 
 @import "../node_modules/bulma/bulma";
 @import "theme"

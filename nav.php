@@ -11,19 +11,19 @@
   </div>
   <div class="navbar-menu" id="navMenu">
     <div class="navbar-start">
-      <a class="navbar-item" href="#about">
+      <a class="navbar-item underline" href="#about">
         About
       </a>
-      <a class="navbar-item">
+      <a class="navbar-item underline">
         Skills
       </a>
-      <a class="navbar-item">
+      <a class="navbar-item underline">
         Portfolio
       </a>
-      <a class="navbar-item">
+      <a class="navbar-item underline">
         Blog
       </a>
-      <a class="navbar-item">
+      <a class="navbar-item underline">
         Contact
       </a>
     </div>
