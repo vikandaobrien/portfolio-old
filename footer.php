@@ -1,3 +1,4 @@
+    <a id="return"><span class="lnr-chevron-up"></span></a>
     <footer class="footer has-text-centered">
       <div class="container">
          <div class="columns">
@@ -11,5 +12,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="lib/main.js"></script>
   </body>
 </html>

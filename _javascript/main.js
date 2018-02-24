@@ -28,21 +28,20 @@ document.addEventListener('DOMContentLoaded', function () {
 // ===== Scroll to Top =====
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 50) {
-        $('#return-to-top').fadeIn(200);
+        $('#return').fadeIn(500);
     } else {
-        $('#return-to-top').fadeOut(200);
+        $('#return').fadeOut(500);
     }
 });
-$('#return-to-top').click(function() {
-    $('body,html').animate({
-		scrollTop : 0
-	}, 500);
+
+$('#return').click(function() {
+    $('body,html').animate({scrollTop : 0}, 500);
 });
 
 // ===== Parallax Scroll =====
 $(window).scroll(function() {
 	var parallaxScroll = $(this).scrollTop();
 	$('.parallax').css({
-		'transform' : 'translate(0px, ' + parallaxScroll /20 + '%)'
+		'transform' : 'translate(0px, ' + parallaxScroll/20 + '%)'
 	});
 });
