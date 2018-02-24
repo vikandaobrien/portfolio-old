@@ -11,45 +11,4 @@ $primary-invert: $white;
 $secondary: $ravenblue;
 
 @import "../node_modules/bulma/bulma";
-
-.navbar {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-
-#home {
-  background: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .4)), center/cover url('../assets/background.jpg');
-  text-shadow: 0 0 2px rgba(0, 0, 0, .5);
-
-  img.logo {
-    filter: drop-shadow(0 0 5px rgba(0, 0, 0, .1));
-    margin-bottom: 2rem;
-    max-width: 100px;
-  }
-}
-
-#about {
-  background: $background;
-  padding: 5rem 1.5rem;
-
-  .profile {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-
-    img {
-      border-radius: 50%;
-
-      max-width: 250px;
-      width: 100%;
-    }
-  }
-
-  h1 {
-    color: $primary;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
-}
+@import "theme"
