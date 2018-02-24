@@ -38,6 +38,22 @@ $('#return').click(function() {
     $('body,html').animate({scrollTop : 0}, 500);
 });
 
+// ===== Scroll Smoothing =====
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top - $('nav').height()
+        }, 500);
+        return false;
+      }
+    }
+  });
+});
+
 // ===== Parallax Scroll =====
 $(window).scroll(function() {
 	var parallaxScroll = $(this).scrollTop();

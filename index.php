@@ -18,8 +18,11 @@
       </div>
     </div>
   </div>
-  <div class="hero-foot">
-    Hi
+  <div class="hero-foot has-text-centered">
+    <a href="#about">
+      <small>See my work</small>
+      <span class="lnr-chevron-down"></span>
+    </a>
   </div>
 </section>
 

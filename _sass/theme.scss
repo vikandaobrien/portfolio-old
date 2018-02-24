@@ -2,6 +2,16 @@
   position: sticky;
   top: 0;
   z-index: 1;
+
+  a {
+    font-size: 1.2rem;
+    line-height: 3;
+  }
+
+  img {
+    margin: 0 1rem;
+    max-height: 2rem;
+  }
 }
 
 #home {
@@ -23,6 +33,32 @@
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, .1));
     margin-bottom: 2rem;
     max-width: 100px;
+  }
+
+  a {
+    background-color: transparentize($black,.8);
+    border-radius: 20px 20px 0 0;
+    display: inline-block;
+    margin-top: .5rem;
+    padding: 1rem 2rem 0;
+    transition: all 300ms ease;
+
+    &:hover {
+      background-color: transparentize($black,.6);
+      margin-top: 0;
+      padding-bottom: .5rem;
+    }
+  }
+
+  small {
+    display: block;
+    font-weight: $weight-bold;
+    margin-bottom: .3rem;
+    text-transform: uppercase;
+  }
+
+  span {
+    font-size:25px;
   }
 }
 

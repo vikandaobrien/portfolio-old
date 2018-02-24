@@ -6508,6 +6508,12 @@ label.panel-block {
   position: sticky;
   top: 0;
   z-index: 1; }
+  .navbar a {
+    font-size: 1.2rem;
+    line-height: 3; }
+  .navbar img {
+    margin: 0 1rem;
+    max-height: 2rem; }
 
 #home {
   background: transparent;
@@ -6523,6 +6529,24 @@ label.panel-block {
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.1));
     margin-bottom: 2rem;
     max-width: 100px; }
+  #home a {
+    background-color: rgba(10, 10, 10, 0.2);
+    border-radius: 20px 20px 0 0;
+    display: inline-block;
+    margin-top: .5rem;
+    padding: 1rem 2rem 0;
+    transition: all 300ms ease; }
+    #home a:hover {
+      background-color: rgba(10, 10, 10, 0.4);
+      margin-top: 0;
+      padding-bottom: .5rem; }
+  #home small {
+    display: block;
+    font-weight: 700;
+    margin-bottom: .3rem;
+    text-transform: uppercase; }
+  #home span {
+    font-size: 25px; }
 
 #about {
   background-color: whitesmoke;
