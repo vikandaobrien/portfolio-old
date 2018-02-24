@@ -1,16 +1,53 @@
+a {
+  transition: all 300ms ease;
+}
+
 .navbar {
   position: sticky;
   top: 0;
   z-index: 1;
+
+  img {
+    margin: 0 1rem;
+    max-height: 2rem;
+  }
 
   a {
     font-size: 1.2rem;
     line-height: 3;
   }
 
-  img {
-    margin: 0 1rem;
-    max-height: 2rem;
+  a.button {
+    border: 0;
+
+    &.facebook:hover {
+      background-color: $facebook;
+      color: $white;
+    }
+
+    &.twitter:hover {
+      background-color: $twitter;
+      color: $white;
+    }
+
+    &.linkedin:hover {
+      background-color: $linkedin;
+      color: $white;
+    }
+
+    &.github:hover {
+      background-color: $github;
+      color: $white;
+    }
+
+    &.deviantart:hover {
+      background-color: $deviantart;
+      color: $white;
+    }
+  }
+
+  .field.is-grouped > .control:not(:last-child) {
+    margin-right: .4rem;
   }
 }
 
@@ -41,7 +78,6 @@
     display: inline-block;
     margin-top: .5rem;
     padding: 1rem 2rem 0;
-    transition: all 300ms ease;
 
     &:hover {
       background-color: transparentize($black,.6);
@@ -95,7 +131,6 @@
     height: 50px;
     position: fixed;
     right: 20px;
-    transition: all 300ms ease;
     width: 50px;
     z-index: 10;
 

@@ -7,6 +7,7 @@
     <title>Vikanda Gonzales</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/linearicons.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
   </head>
   <body>
     <header>
