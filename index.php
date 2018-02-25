@@ -50,15 +50,81 @@
   </div>
 </section>
 
-<section class="hero is-medium is-primary is-bold">
+<section id="skills" class="hero is-medium is-primary is-bold">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title">
-        Primary bold title
-      </h1>
-      <h2 class="subtitle">
-        Primary bold subtitle
-      </h2>
+      <div class="content">
+        <div class="columns has-text-centered">
+          <div class="skill column is-4-widescreen">
+            <span class="lnr-palette"></span>
+            <h2 class="title">
+              Visual Design<br>& UI/UX
+            </h2>
+            <h4 class="title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </h4>
+            <?php include 'design-stack.php';?>
+          </div>
+          <div class="skill column is-4-widescreen">
+            <span class="lnr-desktop"></span>
+            <h2 class="title">
+              Front-end<br>Development
+            </h2>
+            <h4 class="title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </h4>
+            <?php include 'design-stack.php';?>
+          </div>
+          <div class="skill column is-4-widescreen">
+            <span class="lnr-server"></span>
+            <h2 class="title">
+              Back-end<br>Development
+            </h2>
+            <h4 class="title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </h4>
+            <?php include 'design-stack.php';?>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="hero is-medium is-dark is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <div class="content">
+        <div class="columns is-gapless has-text-centered">
+          <div class="column is-4-desktop is-6-tablet">
+            <img src="assets/projects/your-divine-addictions/0.png" alt="Your Divine Addictions">
+          </div>
+          <div class="column is-4-desktop is-6-tablet">
+            <img src="assets/projects/gonzales-music/0.png" alt="Gonzales Music">
+          </div>
+          <div class="column is-4-desktop is-6-tablet">
+            <img src="assets/projects/vintage-blossoms/0.png" alt="Vintage Blossoms">
+          </div>
+          <div class="column is-4-desktop is-6-tablet">
+            <img src="assets/projects/veil-creations/0.png" alt="Veil Creations">
+          </div>
+          <div class="column is-4-desktop is-6-tablet">
+            <img src="assets/projects/veil-guild/0.png" alt="Veil Guild">
+          </div>
+          <div class="column is-4-desktop is-6-tablet">
+            <img src="assets/projects/the-chobocobros/0.png" alt="The Chobocobros">
+          </div>
+          <div class="column is-4-desktop is-6-tablet">
+            <img src="assets/projects/nino-vanessa/0.png" alt="Nino & Vanessa">
+          </div>
+          <div class="column is-4-desktop is-6-tablet">
+            <img src="assets/projects/devin-samantha/0.png" alt="Devin & Samantha">
+          </div>
+          <div class="column is-4-desktop is-6-tablet">
+            <img src="assets/projects/meraki/0.png" alt="Meraki">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

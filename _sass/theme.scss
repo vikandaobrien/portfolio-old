@@ -87,9 +87,9 @@ a {
 
 .content {
 
-  h1 {
+  h1, h2 {
     color: $primary;
-    font-weight: $weight-bold;
+    font-family: $heading-sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
@@ -157,6 +157,53 @@ a {
   }
 }
 
+#skills {
+
+  .hero-body {
+    padding: 4rem 1.5rem;
+  }
+
+  .skill {
+
+    span {
+      display: inline-block;
+      font-size: 80px;
+    }
+
+    .field.is-grouped {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      a {
+        background: none;
+        border: 0;
+        color: $secondary;
+        cursor: default;
+      }
+
+      span {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+#portfolio {
+
+  .columns {
+    flex-wrap: wrap;
+  }
+
+  .column {
+    height: 250px;
+    overflow: hidden;
+
+    img {
+      object-position: center top;
+    }
+  }
+}
+
 #contact {
 
   .field.is-grouped {
@@ -194,6 +241,10 @@ a {
       }
     }
   }
+
+  .subtitle {
+    margin-top: -1.25rem;
+  }
 }
 
 #return {
@@ -208,21 +259,21 @@ a {
   z-index: 10;
 
   span {
-      color: $white;
-      margin: 0;
-      position: relative;
-      left: 16px;
-      top: 14px;
-      font-size: 20px;
-      transition: all 300ms ease;
-  }
+    color: $white;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 14px;
+    font-size: 20px;
+    transition: all 300ms ease;
+}
 
   &:hover {
-      background: transparentize($black,.1);
+    background: transparentize($black,.1);
 
-      span {
-          top: 10px;
-      }
+    span {
+      top: 10px;
+    }
   }
 }
 
