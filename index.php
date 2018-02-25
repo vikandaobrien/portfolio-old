@@ -64,7 +64,7 @@
                 Visual Design<br>& UI/UX
               </h2>
               <h5 class="title has-text-justified">
-                My passion since I was 11, visual design will always be a part of me, even as a developer, whether it be creating stunning graphics for a hip new website or prototyping clean, intuitive UI for the latest mobile app.
+                My passion since I was 11, visual design will always be a part of my work, even as a developer, whether it be creating stunning graphics for a hip new website or prototyping clean, intuitive UI for the latest mobile app.
               </h5>
               <?php include 'design-stack.php';?>
             </div>
