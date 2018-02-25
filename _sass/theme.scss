@@ -80,18 +80,29 @@ a {
   }
 }
 
-.section {
-  background-color: $background;
-  padding: 5rem 1.5rem;
-}
+.hero.is-light {
 
-.content {
-
-  h1, h2 {
+  h1.title {
     color: $primary;
     font-family: $heading-sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
+  }
+
+  h3.subtitle {
+    background-color: $grey-lighter;
+    border-radius: .5rem;
+    display: inline-block;
+    padding: .3rem .8rem;
+  }
+
+  a.email {
+    margin: -.5rem auto 1rem;
+
+    &:hover {
+      background-color: $white-bis;
+      color: $primary;
+    }
   }
 }
 
@@ -165,6 +176,12 @@ a {
 
   .skill {
 
+    h2 {
+      font-weight: $weight-bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
     span {
       display: inline-block;
       font-size: 80px;
@@ -192,14 +209,25 @@ a {
 
   .columns {
     flex-wrap: wrap;
+    padding: 5rem;
+
+    &:hover img {
+      opacity: .2;
+    }
   }
 
   .column {
     height: 250px;
-    overflow: hidden;
 
     img {
-      object-position: center top;
+      height: 100%;
+      object-fit: cover;
+      transition: all 500ms ease;
+      width: 100%;
+
+      &:hover {
+      opacity: 1;
+      }
     }
   }
 }
@@ -240,10 +268,6 @@ a {
         color: $deviantart;
       }
     }
-  }
-
-  .subtitle {
-    margin-top: -1.25rem;
   }
 }
 

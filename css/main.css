@@ -6556,15 +6556,23 @@ a {
   .navbar .field.is-grouped > .control:not(:last-child) {
     margin-right: .4rem; }
 
-.section {
-  background-color: whitesmoke;
-  padding: 5rem 1.5rem; }
-
-.content h1, .content h2 {
+.hero.is-light h1.title {
   color: #e66262;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase; }
+
+.hero.is-light h3.subtitle {
+  background-color: #dbdbdb;
+  border-radius: .5rem;
+  display: inline-block;
+  padding: .3rem .8rem; }
+
+.hero.is-light a.email {
+  margin: -.5rem auto 1rem; }
+  .hero.is-light a.email:hover {
+    background-color: #fafafa;
+    color: #e66262; }
 
 #home {
   background: transparent;
@@ -6610,6 +6618,11 @@ a {
 #skills .hero-body {
   padding: 4rem 1.5rem; }
 
+#skills .skill h2 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
 #skills .skill span {
   display: inline-block;
   font-size: 80px; }
@@ -6626,13 +6639,20 @@ a {
     font-size: 30px; }
 
 #portfolio .columns {
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  padding: 5rem; }
+  #portfolio .columns:hover img {
+    opacity: .2; }
 
 #portfolio .column {
-  height: 250px;
-  overflow: hidden; }
+  height: 250px; }
   #portfolio .column img {
-    object-position: center top; }
+    height: 100%;
+    object-fit: cover;
+    transition: all 500ms ease;
+    width: 100%; }
+    #portfolio .column img:hover {
+      opacity: 1; }
 
 #contact .field.is-grouped {
   justify-content: center; }
@@ -6654,9 +6674,6 @@ a {
       color: #333; }
     #contact .field.is-grouped a.deviantart:hover {
       color: #05cc47; }
-
-#contact .subtitle {
-  margin-top: -1.25rem; }
 
 #return {
   background: rgba(10, 10, 10, 0.7);

@@ -17,7 +17,7 @@
       <a class="navbar-item underline" href="#skills">
         Skills
       </a>
-      <a class="navbar-item underline">
+      <a class="navbar-item underline" href="#portfolio">
         Portfolio
       </a>
       <a class="navbar-item underline">
