@@ -57,35 +57,41 @@
     <div class="container">
       <div class="content">
         <div class="columns has-text-centered is-6 is-variable">
-          <div class="skill column is-4-widescreen">
-            <span class="lnr-palette"></span>
-            <h2 class="title">
-              Visual Design<br>& UI/UX
-            </h2>
-            <h5 class="title has-text-justified">
-              My passion since I was 11, visual design will always be a part of me, even as a developer, whether it be creating stunning graphics for a hip new website or prototyping clean, intuitive UI for the latest mobile app.
-            </h5>
-            <?php include 'design-stack.php';?>
+          <div class="column is-4-widescreen">
+            <div class="skill">
+              <span class="lnr-palette"></span>
+              <h2 class="title">
+                Visual Design<br>& UI/UX
+              </h2>
+              <h5 class="title has-text-justified">
+                My passion since I was 11, visual design will always be a part of me, even as a developer, whether it be creating stunning graphics for a hip new website or prototyping clean, intuitive UI for the latest mobile app.
+              </h5>
+              <?php include 'design-stack.php';?>
+            </div>
           </div>
-          <div class="skill column is-4-widescreen">
-            <span class="lnr-desktop"></span>
-            <h2 class="title">
-              Front-end<br>Development
-            </h2>
-            <h5 class="title has-text-justified">
-              As a graphic and web designer, it was a natural transition for me to move into the world of front-end development, where I can make things even prettier <em>and</em> functional, but this time, through the power of code!
-            </h5>
-            <?php include 'design-stack.php';?>
+          <div class="column is-4-widescreen">
+            <div class="skill">
+              <span class="lnr-desktop"></span>
+              <h2 class="title">
+                Front-end<br>Development
+              </h2>
+              <h5 class="title has-text-justified">
+                As a graphic and web designer, it was a natural transition for me to move into the world of front-end development, where I can make things even prettier <em>and</em> functional, but this time, through the power of code!
+              </h5>
+              <?php include 'design-stack.php';?>
+            </div>
           </div>
-          <div class="skill column is-4-widescreen">
-            <span class="lnr-server"></span>
-            <h2 class="title">
-              Back-end<br>Development
-            </h2>
-            <h5 class="title has-text-justified">
-              COMING SOON. Lorem ipsum dolor amet mustache farm-to-table synth waistcoat man bun jean shorts selvage succulents 90's vice palo santo. Tofu photo booth keytar authentic pitchfork, gentrify letterpress typewriter whatever. 
-            </h5>
-            <?php include 'design-stack.php';?>
+          <div class="column is-4-widescreen">
+            <div class="skill">
+              <span class="lnr-server"></span>
+              <h2 class="title">
+                Back-end<br>Development
+              </h2>
+              <h5 class="title has-text-justified">
+                COMING SOON. Lorem ipsum dolor amet mustache farm-to-table synth waistcoat man bun jean shorts selvage succulents 90's vice palo santo. Tofu photo booth keytar authentic pitchfork, gentrify letterpress typewriter whatever.
+              </h5>
+              <?php include 'design-stack.php';?>
+            </div>
           </div>
         </div>
       </div>
