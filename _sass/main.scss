@@ -1,8 +1,8 @@
 @charset "utf-8";
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 
-$ravenblue: #16202e;
-$ravenbronze: #b69f7a;
+$coral: #e66262;
+$pink: #f69697;
 
 // BRAND COLORS
 
@@ -14,11 +14,13 @@ $deviantart: #05cc47;
 
 //$family-sans-serif: "Helvetica", "Arial", sans-serif;
 
-$primary: $ravenbronze;
+$primary: $coral;
 $primary-invert: $white;
-$secondary: $ravenblue;
-$link: $primary;
+$secondary: $pink;
+$link: $secondary;
+
 $navbar-height: 4.75rem;
 
+
 @import "../node_modules/bulma/bulma";
-@import "theme"
+@import "theme";

@@ -9,12 +9,16 @@ a {
 
   img {
     margin: 0 1rem;
-    max-height: 2rem;
+    max-height: 2.5rem;
   }
 
   a {
     font-size: 1.2rem;
     line-height: 3;
+
+    &:hover {
+      color: $primary;
+    }
   }
 
   @media (min-width: 1024px) {
@@ -24,7 +28,7 @@ a {
     }
 
     .underline:after {
-      background-color: $primary;
+      background-color: lighten($secondary, 10%);
       bottom: 1.2rem;
       content: "";
       height: 3px;
@@ -76,6 +80,21 @@ a {
   }
 }
 
+.section {
+  background-color: $background;
+  padding: 5rem 1.5rem;
+}
+
+.content {
+
+  h1 {
+    color: $primary;
+    font-weight: $weight-bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
 #home {
   background: transparent;
   text-shadow: 0 0 2px rgba(0, 0, 0, .5);
@@ -124,8 +143,6 @@ a {
 }
 
 #about {
-  background-color: $background;
-  padding: 5rem 1.5rem;
 
   .profile {
     align-items: center;
@@ -134,17 +151,48 @@ a {
 
     img {
       border-radius: 50%;
-
       max-width: 250px;
       width: 100%;
     }
   }
+}
 
-  h1 {
-    color: $primary;
-    font-weight: $weight-bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+#contact {
+
+  .field.is-grouped {
+    justify-content: center;
+
+    .control:not(:last-child) {
+      margin-right: .5rem;
+    }
+
+    a {
+      background: none;
+      border: none;
+      color: $primary;
+      font-size: 2rem;
+      padding: .75rem;
+
+      &.facebook:hover {
+        color: $facebook;
+      }
+
+      &.twitter:hover {
+        color: $twitter;
+      }
+
+      &.linkedin:hover {
+        color: $linkedin;
+      }
+
+      &.github:hover {
+        color: $github;
+      }
+
+      &.deviantart:hover {
+        color: $deviantart;
+      }
+    }
   }
 }
 

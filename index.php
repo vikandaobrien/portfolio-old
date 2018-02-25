@@ -7,7 +7,7 @@
     <div class="container">
       <div class="columns">
         <div class="column is-8-desktop is-offset-2-desktop has-text-centered">
-          <img class="logo" src="assets/brand/logo-icon.svg" alt="Vikanda Gonzales">
+          <img class="logo" src="assets/brand/logo.svg" alt="Vikanda Gonzales">
           <h1 class="title is-2 is-spaced">
             Hi, I'm Vikanda.
           </h1>
@@ -42,6 +42,7 @@
               <p class="has-text-justified">
                 I'm a graphic and web designer, illustrator, linguist, polyglot, and gamer. I've spent most of my life moving between different countries. I started designing when I was 11 in an attempt to cope with culture shock, and it turned into one of my most long-lived passions. When I'm not designing, I enjoy traveling, playing video and tabletop games, trying different food, playing the piano, and learning more languages.
               </p>
+            </div>
           </div>
         </div>
       </div>
@@ -49,18 +50,32 @@
   </div>
 </section>
 
-<div class="field is-grouped">
-  <p class="control">
-    <a class="button is-medium is-primary" href="http://bulma.io">
-      <strong class="has-text-weight-semibold">Bulma homepage</strong>
-    </a>
-  </p>
-  <p class="control">
-    <a class="button is-medium is-link" href="http://bulma.io/documentation/overview/start/">
-      <strong class="has-text-weight-semibold">Documentation</strong>
-    </a>
-  </p>
-</div>
-</div>
+<section class="hero is-medium is-primary is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Primary bold title
+      </h1>
+      <h2 class="subtitle">
+        Primary bold subtitle
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8-desktop is-offset-2-desktop is-10-tablet is-offset-1-tablet">
+        <div class="content has-text-centered">
+          <h1 class="title">Keep in Touch</h1>
+          <h3 class="title">For any inquiries, please email me at:</h3>
+          <h3 class="subtitle"><a href="mailto:vikanda.gonzales@yahoo.com">vikanda.gonzales@yahoo.com</a></h3>
+          <?php include 'social.php';?>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <?php include 'footer.php';?>
