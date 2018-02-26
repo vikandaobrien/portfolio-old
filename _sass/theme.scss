@@ -219,7 +219,6 @@ a {
 
     &:hover {
       background-color: transparentize($black, .85);
-      transition: all 300ms ease;
     }
 
     &.back {
