@@ -175,6 +175,7 @@ a {
   }
 
   .skill-container {
+    cursor: pointer;
     margin: auto;
     max-width: 500px;
     min-width: 300px;
@@ -197,14 +198,14 @@ a {
         position: relative;
         font-size: 1.2rem;
         transition: all 300ms ease;
+      }
     }
 
-      &:hover {
-        background: transparentize($black,.6);
+    &:hover a.info {
+      background: transparentize($black,.6);
 
-        span {
-          font-size: 1.4rem;
-        }
+      span {
+        font-size: 1.4rem;
       }
     }
   }
@@ -217,9 +218,12 @@ a {
     position: relative;
 
     &.back {
-      background-color: transparentize($white, .1);
-      padding-top: 1.5rem;
+      background-color: $white-ter;
       display: none;
+      padding-top: 1.5rem;
+      position: absolute;
+      top: 0;
+      width: 100%;
     }
 
     h2 {

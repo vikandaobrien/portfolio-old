@@ -6619,6 +6619,7 @@ a {
   flex-wrap: wrap; }
 
 #skills .skill-container {
+  cursor: pointer;
   margin: auto;
   max-width: 500px;
   min-width: 300px;
@@ -6639,10 +6640,10 @@ a {
       position: relative;
       font-size: 1.2rem;
       transition: all 300ms ease; }
-    #skills .skill-container a.info:hover {
-      background: rgba(10, 10, 10, 0.4); }
-      #skills .skill-container a.info:hover span {
-        font-size: 1.4rem; }
+  #skills .skill-container:hover a.info {
+    background: rgba(10, 10, 10, 0.4); }
+    #skills .skill-container:hover a.info span {
+      font-size: 1.4rem; }
 
 #skills .skill {
   background-color: rgba(10, 10, 10, 0.1);
@@ -6651,9 +6652,12 @@ a {
   padding: 3.5rem 2rem 2rem;
   position: relative; }
   #skills .skill.back {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: whitesmoke;
+    display: none;
     padding-top: 1.5rem;
-    display: none; }
+    position: absolute;
+    top: 0;
+    width: 100%; }
   #skills .skill h2 {
     font-weight: 700;
     letter-spacing: 1px;
