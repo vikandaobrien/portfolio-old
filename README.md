@@ -2,13 +2,13 @@
 
 This is my portfolio for my art, design, and development work. I built this with HTML5, CSS3, and Sass using the [Bulma](http://bulma.io) framework, along with JavaScript, jQuery, and PHP.
 
-**Currently a work in progress!**
+>Currently a work in progress!
 
 ## Could I take a peek?
 
 For now, you will need a local environment like xAMP (LAMP, MAMP, or WAMP) installed to view my portfolio. When I'm done with the final version, I will be uploading it to my domain and host, which *will* support PHP.
 
-But for the sake of my instructors checking my work, I will put the current version into an HTML file.
+But for the sake of my instructors checking my work, I will have the current version in a single HTML file.
 
 ## To Do
 
@@ -23,14 +23,14 @@ But for the sake of my instructors checking my work, I will put the current vers
 
 #### Skills Section
 - [ ] Decide on skill stacks and other skills I use
-- [ ] Prettify those SVG icons in Illustrator
+- [ ] Prettify those SVG icons on Illustrator
 - [ ] Turn them icons into a font
 - [ ] Adjust size and spacing for stacks
 - [ ] Add a section for miscellaneous work tools
 
 #### Portfolio Section
 - [ ] Plan portfolio tabs
-- [ ] Decide which projects will make it
+- [ ] Decide which projects will make the cut
 - [ ] Implement jQuery toggle tabs
 - [ ] Wireframe project page template
 - [ ] Add all the content for each project
