@@ -6652,26 +6652,32 @@ a {
   position: relative; }
   #skills .skill.back {
     background-color: rgba(255, 255, 255, 0.9);
+    padding-top: 1.5rem;
     display: none; }
   #skills .skill h2 {
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase; }
-  #skills .skill h5 {
-    line-height: 1.3; }
+  #skills .skill h3 {
+    color: #363636; }
+  #skills .skill h4 {
+    color: #f69697;
+    margin-bottom: 2rem;
+    text-transform: uppercase; }
   #skills .skill span {
     display: inline-block;
-    font-size: 80px; }
+    font-size: 5rem; }
   #skills .skill .field.is-grouped {
-    flex-wrap: wrap;
     justify-content: center; }
+    #skills .skill .field.is-grouped p.control {
+      margin: .1rem 0; }
     #skills .skill .field.is-grouped a {
       background: none;
       border: 0;
-      color: #f69697;
+      color: #e66262;
       cursor: default; }
     #skills .skill .field.is-grouped span {
-      font-size: 30px; }
+      font-size: 2rem; }
 
 #portfolio .columns {
   flex-wrap: wrap; }

@@ -218,6 +218,7 @@ a {
 
     &.back {
       background-color: transparentize($white, .1);
+      padding-top: 1.5rem;
       display: none;
     }
 
@@ -227,28 +228,37 @@ a {
       text-transform: uppercase;
     }
 
-    h5 {
-      line-height: 1.3;
+    h3 {
+      color: $grey-darker;
+    }
+
+    h4 {
+      color: $secondary;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
     }
 
     span {
       display: inline-block;
-      font-size: 80px;
+      font-size: 5rem;
     }
 
     .field.is-grouped {
-      flex-wrap: wrap;
       justify-content: center;
+
+      p.control {
+        margin: .1rem 0;
+      }
 
       a {
         background: none;
         border: 0;
-        color: $secondary;
+        color: $primary;
         cursor: default;
       }
 
       span {
-        font-size: 30px;
+        font-size: 2rem;
       }
     }
   }

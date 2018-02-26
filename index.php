@@ -67,7 +67,7 @@
                 </h2>
               </div>
               <div class="skill back">
-                <?php include 'design-stack.php';?>
+                <?php include 'stack-design.php';?>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@
                 </h2>
               </div>
               <div class="skill back">
-                <?php include 'design-stack.php';?>
+                <?php include 'stack-frontend.php';?>
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@
                 </h2>
               </div>
               <div class="skill back">
-                <?php include 'design-stack.php';?>
+                <?php include 'stack-backend.php';?>
               </div>
             </div>
           </div>
