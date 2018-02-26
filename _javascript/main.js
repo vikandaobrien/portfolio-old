@@ -61,3 +61,37 @@ $(window).scroll(function() {
 		'transform' : 'translate(0px, ' + parallaxScroll/20 + '%)'
 	});
 });
+
+// ===== Skill Toggle =====
+$(document).ready(function() {
+	$('#design .info').hover(
+    function() {
+      $('#design .front').hide();
+      $('#design .back').fadeIn();
+    },
+    function() {
+      $('#design .back').hide();
+      $('#design .front').fadeIn();
+    }
+  );
+  $('#frontend .info').hover(
+    function() {
+      $('#frontend .front').hide();
+      $('#frontend .back').fadeIn();
+    },
+    function() {
+      $('#frontend .back').hide();
+      $('#frontend .front').fadeIn();
+    }
+  );
+  $('#backend .info').hover(
+    function() {
+      $('#backend .front').hide();
+      $('#backend .back').fadeIn();
+    },
+    function() {
+      $('#backend .back').hide();
+      $('#backend .front').fadeIn();
+    }
+  );
+});
