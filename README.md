@@ -27,6 +27,7 @@ But for the sake of my instructors checking my work, I will have the current ver
 - [ ] Turn them icons into a font.
 - [ ] Adjust size and spacing for stacks.
 - [ ] Add a section for miscellaneous work tools.
+- [ ] Implement a better solution for the jQuery toggle.
 
 #### Portfolio Section
 - [ ] Plan portfolio tabs.
