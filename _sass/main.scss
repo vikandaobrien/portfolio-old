@@ -1,8 +1,20 @@
 @charset "utf-8";
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 
+// FONT FAMILIES
+
+$family-sans-serif: "Karla", sans-serif;
+$heading-sans-serif: "Montserrat", sans-serif;
+
+// COLOR SCHEME
+
 $coral: #e66262;
 $pink: #f69697;
+
+$primary: $coral;
+$primary-invert: $white;
+$secondary: $pink;
+$link: $secondary;
 
 // BRAND COLORS
 
@@ -12,13 +24,7 @@ $linkedin: #0077b5;
 $github: #333;
 $deviantart: #05cc47;
 
-$heading-sans-serif: "Montserrat", sans-serif;
-$family-sans-serif: "Karla", sans-serif;
-
-$primary: $coral;
-$primary-invert: $white;
-$secondary: $pink;
-$link: $secondary;
+// VARIABLE OVERRIDES
 
 $navbar-height: 4.75rem;
 

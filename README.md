@@ -1,37 +1,50 @@
-# Start package for [Bulma](http://bulma.io)
+# Portfolio
 
-Tiny npm package that includes the `npm` **dependencies** you need to **build your own website** with Bulma.
+This is my portfolio for my art, design, and development work. I built this with HTML5, CSS3, and Sass using the [Bulma](http://bulma.io) framework, along with JavaScript, jQuery, and PHP.
 
-<a href="http://bulma.io"><img src="https://raw.githubusercontent.com/jgthms/bulma-start/master/bulma-start.png" alt="Bulma: a Flexbox CSS framework" style="max-width:100%;" width="600" height="315"></a>
+**Currently a work in progress!**
 
-## Install
+## Could I take a peek?
 
-```sh
-npm install bulma-start
-```
-_or_
+For now, you will need a local environment like xAMP (LAMP, MAMP, or WAMP) installed to view my portfolio. When I'm done with the final version, I will be uploading it to my domain and host, which *will* support PHP.
 
-```sh
-yarn add bulma-start
-```
+But for the sake of my instructors checking my work, I will put the current version into an HTML file.
 
-## What's included
+## To Do
 
-The `npm` dependencies included in `package.json` are:
+#### Main
+- [x] Prototype a wireframe
+- [x] Mock it up!
+- [x] Set up basic frame with HTML
+- [x] Add custom CSS/Sass styling and make it look :bomb:
+- [x] Add some pretty pictures!
+- [x] Make responsive
+- [x] Main page is done! :star:
 
-* <code>[bulma](https://github.com/jgthms/bulma)</code>
-* <code>[node-sass](https://github.com/sass/node-sass)</code> to compile your own Sass file
-* <code>[postcss-cli](https://github.com/postcss/postcss-cli)</code> and <code>[autoprefixer](https://github.com/postcss/autoprefixer)</code> to add support for older browsers
-* <code>[babel-cli](https://babeljs.io/docs/usage/cli/)</code>, <code>[babel-preset-env](https://github.com/babel/babel-preset-env)</code> and <code>[babel-preset-es2015-ie](https://github.com/jmcriffey/babel-preset-es2015-ie)</code> for compiling ES6 JavaScript files
+#### Skills Section
+- [ ] Decide on skill stacks and other skills I use
+- [ ] Prettify those SVG icons in Illustrator
+- [ ] Turn them icons into a font
+- [ ] Adjust size and spacing for stacks
+- [ ] Add a section for miscellaneous work tools
 
-Apart from `package.json`, the following files are included:
+#### Portfolio Section
+- [ ] Plan portfolio tabs
+- [ ] Decide which projects will make it
+- [ ] Implement jQuery toggle tabs
+- [ ] Wireframe project page template
+- [ ] Add all the content for each project
+- [ ] Make sure main page links to each project correctly
 
-* `.babelrc` configuration file for [Babel](https://babeljs.io/)
-* `.gitignore` common [Git](https://git-scm.com/) ignored files
-* `index.html` this HTML5 file
-* `_sass/main.scss` a basic SCSS file that **imports Bulma** and explains how to **customize** your styles, and compiles to `css/main.css`
-* `_javascript/main.js` an ES6 JavaScript that compiles to `lib/main.js`
+#### QA and Finalize
+- [ ] Look into animation effects
+- [ ] Double-check links
+- [ ] Double-check responsiveness
+- [ ] Substitute values with Sass variables if possible
+- [ ] Clean up code
+- [ ] Deploy! :sparkles:
 
-## Copyright and license
 
-Code copyright 2017 Jeremy Thomas. Code released under [the MIT license](https://github.com/jgthms/bulma-start/blob/master/LICENSE).
+## Copyright
+
+Copyright &copy; 2018 Vikanda Gonzales. Made with [Bulma](http://bulma.io).
