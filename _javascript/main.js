@@ -82,6 +82,16 @@ $(document).ready(function() {
       $('#design .back, #frontend .back').fadeOut(200);
     },200)
   );
+  $("#skills").click(
+    function() {
+      $('#design .back, #frontend .back, #backend .back').fadeOut(200);
+    }
+  );
+  $("#skills .skill-container").click(
+    function(e) {
+      e.stopPropagation();
+    }
+  );
 });
 
 // ===== Debouncer =====
