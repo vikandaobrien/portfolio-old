@@ -27,12 +27,13 @@ But for the sake of my instructors checking my work, I will have the current ver
 - [ ] Turn them icons into a font.
 - [ ] Adjust size and spacing for stacks.
 - [ ] Add a section for miscellaneous work tools.
-- [ ] Implement a better solution for the jQuery toggle.
+- [x] Implement a better solution for the jQuery toggle.
+- [x] Add a debouncer to avoid repeated triggers.
 
 #### Portfolio Section
-- [ ] Plan portfolio tabs.
+- [ ] Plan portfolio tags.
 - [ ] Decide which projects will make the cut.
-- [ ] Implement jQuery toggle tabs.
+- [ ] Implement hover tag display.
 - [ ] Wireframe project page template.
 - [ ] Add all the content for each project.
 - [ ] Make sure main page links to each project correctly.
