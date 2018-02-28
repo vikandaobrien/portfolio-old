@@ -217,10 +217,6 @@ a {
     padding: 3.5rem 2rem 2rem;
     position: relative;
 
-    &:hover {
-      background-color: transparentize($black, .85);
-    }
-
     &.back {
       background-color: $white-ter;
       display: none;

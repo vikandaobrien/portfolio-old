@@ -6651,8 +6651,6 @@ a {
   min-height: 285px;
   padding: 3.5rem 2rem 2rem;
   position: relative; }
-  #skills .skill:hover {
-    background-color: rgba(10, 10, 10, 0.15); }
   #skills .skill.back {
     background-color: whitesmoke;
     display: none;
