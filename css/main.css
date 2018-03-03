@@ -6618,6 +6618,11 @@ a {
 #skills .columns {
   flex-wrap: wrap; }
 
+#skills .column {
+  transition: all 300ms ease; }
+  #skills .column:hover {
+    margin-top: -10px; }
+
 #skills .skill-container {
   cursor: pointer;
   margin: auto;
